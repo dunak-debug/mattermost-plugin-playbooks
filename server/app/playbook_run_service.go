@@ -2450,7 +2450,7 @@ func buildAssignedTaskMessageAndTotal(runs []AssignedRun, siteURL string) (strin
 	}
 
 	if total == 0 {
-		return "##### Your Assigned Tasks:\nYou have 0 assigned tasks.\n", 0
+		return "##### Your Assigned Tasks\nYou have 0 assigned tasks.\n", 0
 	}
 
 	message := fmt.Sprintf("##### Your Assigned Tasks\nYou have %d total assigned tasks:\n", total)
